@@ -1,0 +1,74 @@
+html {
+  background-color: #E9E9EC;
+}
+
+* {
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+a, a:active {
+  text-decoration: none;
+  color: grey;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #383870;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #DEDEE2;
+  border: 1px solid white;
+  height: 175px;
+  width: 100%;
+  padding: 25px;
+  color: white;
+  margin: 0;
+}
+
+.brooke {
+  margin: 15px;
+  font-family: 'EB Garamond', serif;
+  font-size: 300%;
+  letter-spacing: 10px;
+  color: #383870;
+  font-weight: 100;
+  text-shadow: .5px .5px white;
+  border-bottom: solid 1px lightgrey;
+}
+
+.navlink {
+  font-family: 'Heebo', sans-serif;
+  letter-spacing: .25px;
+  display: inline-block;
+  float: left;
+  padding: 15px;
+  width: 20%
+
+}
+
+.spacer-navlinks {
+  display: inline-block;
+  float: left;
+  padding: 15px;
+  width: 20%
+}
+
+.navbar {
+  width: 100%;
+}
+
+h1 {
+  width: 100%;
+  display: inline-block;
+  float: left;
+}
+/*font-family: 'Playfair Display SC', serif;*/
+/*font-family: 'Cardo', serif;*/
+/*font-family: 'Lusitana', serif;*/
+/*font-family: 'Yeseva One', cursive;*/
