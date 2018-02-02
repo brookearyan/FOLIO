@@ -7,6 +7,10 @@ html {
   box-sizing: border-box;
 }
 
+section, article {
+  width: 100%;
+}
+
 a, a:active {
   text-decoration: none;
   color: grey;
@@ -21,20 +25,30 @@ a:hover {
   text-align: center;
 }
 
+/*----- header -----*/
+.bar {
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+}
 .App-header {
-  background-color: #DEDEE2;
+
   border: 1px solid white;
-  height: 175px;
+  min-height: 110px;
+  height: auto;
   width: 100%;
-  padding: 25px;
   color: white;
   margin: 0;
-}
-
+  overflow: auto;
+  position: fixed;
+  }
 .brooke {
-  margin: 15px;
+  width: 100%;
+  padding: 20px;
   font-family: 'EB Garamond', serif;
   font-size: 300%;
+  text-align: left;
   letter-spacing: 10px;
   color: #383870;
   font-weight: 100;
@@ -42,32 +56,86 @@ a:hover {
   border-bottom: solid 1px lightgrey;
 }
 
-.navlink {
-  font-family: 'Heebo', sans-serif;
-  letter-spacing: .25px;
-  display: inline-block;
-  float: left;
-  padding: 15px;
-  width: 20%
-
+/* ----- */
+/* Dropdown Button */
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
 }
 
-.spacer-navlinks {
-  display: inline-block;
-  float: left;
-  padding: 15px;
-  width: 20%
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: block;
+    margin: 20px;
+    float: right;
+    z-index: 1;
 }
 
-.navbar {
-  width: 100%;
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    float: left;
 }
 
-h1 {
-  width: 100%;
-  display: inline-block;
-  float: left;
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+
 }
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+    z-index: 1;
+    position: static;
+    float: left;
+}
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+/*----- articles -----*/
+.main {
+  margin-top: 175px;
+  height: 1750px;
+  background-color: red;
+  position: absolute;
+  z-index: -1;
+
+}
+.home-article {
+  background-color: white;
+  height: 500px;
+
+
+}
+.projects-article {
+  background-color: grey;
+  height: 500px;
+
+
+}
+.background-article {
+  background-color: magenta;
+  height: 500px;
+
+
+}
+ /*----- */
+
 /*font-family: 'Playfair Display SC', serif;*/
 /*font-family: 'Cardo', serif;*/
 /*font-family: 'Lusitana', serif;*/
