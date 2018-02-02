@@ -94,7 +94,6 @@ a:hover {
 /*----- articles -----*/
 .main {
   margin-top: 140px;
-  height: 1750px;
   position: absolute;
   z-index: -1;
 }
@@ -140,54 +139,58 @@ a:hover {
 
  /*----- home page -----*/
  .home-container {
-   margin: 35px;
    width: 100%;
    height: auto;
    display: inline-block;
    float: left;
  }
  .brooke {
-  width: 33%;
   display: inline-block;
   float: left;
  }
-
  .brooke-img {
-   width: 80%;
+   width: 40vw;
    height: auto;
-   padding: 15px;
  }
 .summary-article {
-  width: 33%;
+  background-color: black;
+  width: 100%;
   display: inline-block;
   float: left;
-
+  padding: 7.5vw;
  }
 .summary {
+  padding: 3vw;
+  font-family: didot;
+  font-size: 1.8vw;
+  line-height: 1.75;
+  width: 38vw;
+  height: auto;
   text-align: center;
   font-style: italic;
-  color: grey;
-  font-size: 22px;
-
+  color: white;
+  float: right;
 }
 .flatiron-animation {
   height: auto;
-  width: 33%;
+  width: 50%;
   display: inline-block;
   float: right;
 }
 img.FIanimation {
   width: 80%;
   height: auto;
-  padding: 15px;
+  padding: 2vw;
+  margin-top: 7.5vh;
 }
 
 .office-related, .dev-skills {
-  width: 100%;
+  width: 50%;
   display: inline-block;
   text-align: center;
   padding: 20px;
   color: white;
+  float: left;
 
 }
 .home-p {
