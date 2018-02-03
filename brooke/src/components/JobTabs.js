@@ -1,11 +1,18 @@
 import React from 'react';
 import Flatiron from './Flatiron'
+import FITab from './img-addresses/FI-img.js'
 import KateSpade from './KateSpade'
+import KateTab from './img-addresses/Kate-img.js'
 import CynthiaRowley from './CynthiaRowley'
+import CynthiaTab from './img-addresses/Cynthia-img.js'
 import CityBakery from './CityBakery'
+import BakeryTab from './img-addresses/Bakery-img.js'
 import JCrew from './JCrew'
+import JCrewTab from './img-addresses/JCrew-img.js'
 import Ralph from './Ralph'
+import RalphTab from './img-addresses/Ralph-img.js'
 import Saks from './Saks'
+import SaksTab from './img-addresses/Saks-img.js'
 import ReactDOM from 'react-dom';
 
 
@@ -64,26 +71,28 @@ export class JobTabs extends React.Component {
     return (
       <section className="jobs-container">
         <article className="tabs">
-          <button onClick={this.flatironClick} className="flatiron-tab">
-            <h2 className="company">Flatiron School</h2>
+          <button onClick={this.flatironClick} className="co-button">
+            <div className="company"><FITab /></div>
           </button>
-          <button onClick={this.kateClick} className="kate-tab">
-            <h2 className="company">Kate Spade</h2>
+          <button onClick={this.kateClick} className="co-button">
+            <div className="company"><KateTab /></div>
           </button>
-          <button onClick={this.rowleyClick} className="tablinks">
-            <h2 className="company">Cynthia Rowley</h2>
+          <button onClick={this.rowleyClick} className="co-button">
+            <div className="company"><CynthiaTab /></div>
           </button>
-          <button onClick={this.bakeryClick} className="tablinks">
-            <h2 className="company">City Bakery Brands</h2>
+          <button onClick={this.bakeryClick} className="co-button">
+            <div className="company">
+              <BakeryTab />
+            </div>
           </button>
-          <button onClick={this.crewClick} className="tablinks">
-            <h2 className="company">J. Crew</h2>
+          <button onClick={this.crewClick} className="co-button">
+            <div className="company"><JCrewTab /></div>
           </button>
-          <button onClick={this.ralphClick} className="tablinks">
-            <h2 className="company">Ralph Lauren</h2>
+          <button onClick={this.ralphClick} className="co-button">
+            <div className="company"><RalphTab /></div>
           </button>
-          <button onClick={this.saksClick} className="tablinks">
-            <h2 className="company">Saks Fifth Avenue</h2>
+          <button onClick={this.saksClick} className="co-button">
+            <div className="company"><SaksTab /></div>
           </button>
         </article>
         <article id="which-job">

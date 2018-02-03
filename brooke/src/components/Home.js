@@ -22,8 +22,6 @@ export const Home = () =>
       <p className="home-p">
         Ruby | JavaScript | Python | JQuery | SQL | Ruby on Rails | React | Redux | JSAngular
       </p>
-    </article>
-    <article className="office-related">
       <h3 className="home-h3">
         OFFICE PROFICIENCIES
       </h3>

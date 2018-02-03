@@ -2,7 +2,6 @@ html {
   font-family: 'EB Garamond', serif;
   letter-spacing: 1.5px;
   background-color: lightgrey;
-
 }
 * {
   margin: 0 auto;
@@ -15,11 +14,26 @@ a, a:active, a:hover {
 a:hover {
   color: #383870;
 }
-
+/*sans-serif*/
+/*font-family: 'Pinyon Script', cursive;
+font-family: 'Parisienne', cursive;
+font-family: 'Roboto Condensed', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Arimo', sans-serif;
+font-family: 'Fira Sans', sans-serif;
+font-family: 'News Cycle', sans-serif;
+font-family: 'Yantramanav', sans-serif;
+font-family: 'Pontano Sans', sans-serif;
+font-family: 'Fira Sans Extra Condensed', sans-serif;
+font-family: 'Barlow', sans-serif;
+font-family: 'Palanquin', sans-serif;
+font-family: 'Mada', sans-serif;
+font-family: 'Asap Condensed', sans-serif;*/
 /*----- header -----*/
 .App-header {
-  min-height: 110px;
-  height: auto;
+  background-color: grey;
+  opacity: .25;
+  min-height: 12vw;
   width: 100%;
   margin: 0;
   overflow: auto;
@@ -28,13 +42,16 @@ a:hover {
   }
 .brooke-logo {
   width: 60%;
-  min-height: 100px;
-  padding: 30px 20px 0px 30px;
+  height: 9vw;
+  padding-left: 2vw;
+  padding-top: 4vw;
   font-family: 'EB Garamond', serif;
+  font-family: 'Pontano Sans', sans-serif;
+  font-family: 'Pinyon Script', cursive;
+  font-family: Parisienne;
   color: white;
-  font-size: 250%;
+  font-size: 4vw;
   float: left;
-  letter-spacing: 10px;
   font-weight: 100;
   border-bottom: solid 1px white;
 }
@@ -42,19 +59,19 @@ a:hover {
 
  /*----- DROPDOWN & BURGER BTN -----*/
 .burger-button {
-  padding: 16px;
-  font-size: 16px;
+  padding: 1vw;
   border: none;
   border-style: none;
+  outline: none;
   background-color: inherit;
 }
 /*--burger bars--*/
 .bar {
-  border-radius: 1.5px;
-  width: 30px;
-  height: 4px;
+  border-radius: .3vw;
+  width: 4vw;
+  height: .5vw;
   background-color: white;
-  margin: 6px 0;
+  margin: .5vw;
 }
  /*--all dropdown general styling--*/
 .dropdown {
@@ -63,10 +80,10 @@ a:hover {
   display: inline-block;
   float: right;
   z-index: 1;
-  margin: 15px 15px 0px 0px;
+  margin: 1vw;
 }
 .dropdown-options {
-  margin-top: 10px;
+  font-size: 1.5vw;
   display: none;
   position: absolute;
   background-color: inherit;
@@ -75,13 +92,13 @@ a:hover {
 /* Links inside the dropdown */
 .dropdown-options a {
   color: white;
-  padding: 10px 25px 10px 25px;
+  padding: 1.5vw;
   text-decoration: none;
   display: block;
 }
 /* Change color of dropdown links on hover */
 .dropdown-options a:hover {
-  color: grey;
+  color: black;
 }
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-options {
@@ -93,31 +110,74 @@ a:hover {
 
 /*----- articles -----*/
 .main {
-  margin-top: 140px;
+  margin-top: 12vw;
   position: absolute;
   z-index: -1;
 }
- /*----- background -----*/
-
-.jobs-container {
-  width: 100%;
+ /*----- tabs by company -----*/
+.co-button {
+   background-color: white;
+   padding: 0;
+   width: 100%;
+   height: 10vw;
+   margin: 2vmin;
+ }
+.flatiron-tab {
+  width: 25vw;
+  align-items: center;
+ }
+.bakery-tab {
+  width: 60%;
+  align-items: center;
 }
- /* Style the tab */
+.cynthia-tab {
+  width: 70%;
+  align-items: center;
+  padding-top: 2%;
+}
+.kate-tab{
+  width: 60%;
+  align-items: center;
+  padding-top: 2%;
+}
+.jcrew-tab {
+  width: 35%;
+  align-items: center;
+  padding-top: 2%;
+}
+.ralph-tab {
+  width: 80%;
+  filter: grayscale(100%);
+}
+.saks-tab {
+  width: 70%;
+  align-items: center;
+}
+
+
+  /*-----*/
+.jobs-container {
+  padding: 5vw;
+}
+.jobs-container h1 {
+  font-size: 1.75vw;
+  margin-left: 4.5vw;
+  padding: 0px;
+}
  .tabs {
-     float: left;
-     background-color: inherit;
-     width: 40%;
-     height: auto;
-     overflow: auto;
+   float: left;
+   background-color: inherit;
+   padding: 2vw;
+   width: 40%;
+   height: auto;
+   overflow: auto;
  }
  /* Style the buttons inside the tab */
  .tabs button {
    display: block;
-   background-color: inherit;
-   padding: 22px 16px;
+   background-color: white;
    border: none;
    outline: none;
-   text-align: left;
    cursor: pointer;
    transition: 0.3s;
    font-size: 17px;
@@ -130,13 +190,28 @@ a:hover {
  .tabs button.active {
   background-color: #ccc;
  }
+
  #which-job {
    max-width: 60%;
    float: right;
-   padding: 20px;
+   padding: 4vw;;
+   font-family: 'News Cycle', sans-serif;
+   font-family: 'Pontano Sans', sans-serif;
+ }
+ .duties {
+   font-size: 1.25vw;
+ }
+ .when {
+   font-size: 1.4vw;
+   font-family: Parisienne;
+ }
+ .role {
+   font-size: 1.5vw;
+   font-weight: bold;
  }
 /*-----*/
-
+/*font-family: 'Pinyon Script', cursive;*/
+/*font-family: 'Parisienne', cursive;*/
  /*----- home page -----*/
  .home-container {
    width: 100%;
@@ -151,6 +226,7 @@ a:hover {
  .brooke-img {
    width: 40vw;
    height: auto;
+   filter: grayscale(65%);
  }
 .summary-article {
   background-color: black;
@@ -178,27 +254,26 @@ a:hover {
   float: right;
 }
 img.FIanimation {
-  width: 80%;
+  width: 100%;
   height: auto;
-  padding: 2vw;
-  margin-top: 7.5vh;
 }
 
-.office-related, .dev-skills {
+.dev-skills {
   width: 50%;
   display: inline-block;
   text-align: center;
-  padding: 20px;
+  padding: 6vw;
   color: white;
   float: left;
-
 }
-.home-p {
 
+.home-p {
+  font-size: 2vw;
 }
 .home-h3 {
-  padding: 10px;
-
+  font-size: 3vw;
+  padding: 1vmin;
+  margin-top: 2vh;
 }
 /*-----*/
 /*font-family: 'Playfair Display SC', serif;*/
