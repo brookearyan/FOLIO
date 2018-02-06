@@ -31,9 +31,9 @@ font-family: 'Mada', sans-serif;
 font-family: 'Asap Condensed', sans-serif;*/
 /*----- header -----*/
 .App-header {
-  background-color: grey;
+  background-color: black;
   opacity: .25;
-  min-height: 12vw;
+  height: 9vw;
   width: 100%;
   margin: 0;
   overflow: auto;
@@ -43,12 +43,10 @@ font-family: 'Asap Condensed', sans-serif;*/
 .brooke-logo {
   width: 60%;
   height: 9vw;
-  padding-left: 2vw;
+  padding-left: 4vw;
   padding-top: 4vw;
   font-family: 'EB Garamond', serif;
-  font-family: 'Pontano Sans', sans-serif;
-  font-family: 'Pinyon Script', cursive;
-  font-family: Parisienne;
+  letter-spacing: .75vw;
   color: white;
   font-size: 4vw;
   float: left;
@@ -68,7 +66,7 @@ font-family: 'Asap Condensed', sans-serif;*/
 /*--burger bars--*/
 .bar {
   border-radius: .3vw;
-  width: 4vw;
+  width: 3vw;
   height: .5vw;
   background-color: white;
   margin: .5vw;
@@ -83,6 +81,7 @@ font-family: 'Asap Condensed', sans-serif;*/
   margin: 1vw;
 }
 .dropdown-options {
+  font-family: 'Pontano Sans', sans-serif;
   font-size: 1.5vw;
   display: none;
   position: absolute;
@@ -92,13 +91,13 @@ font-family: 'Asap Condensed', sans-serif;*/
 /* Links inside the dropdown */
 .dropdown-options a {
   color: white;
-  padding: 1.5vw;
+  padding: .75vw;
   text-decoration: none;
   display: block;
 }
 /* Change color of dropdown links on hover */
 .dropdown-options a:hover {
-  color: black;
+  color: #3399FF;
 }
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-options {
@@ -110,7 +109,7 @@ font-family: 'Asap Condensed', sans-serif;*/
 
 /*----- articles -----*/
 .main {
-  margin-top: 12vw;
+  margin-top: 8vw;
   position: absolute;
   z-index: -1;
 }
@@ -119,45 +118,45 @@ font-family: 'Asap Condensed', sans-serif;*/
    background-color: white;
    padding: 0;
    width: 100%;
-   height: 10vw;
-   margin: 2vmin;
+   height: 4.5vw;
+   margin: 2vw;
  }
 .flatiron-tab {
-  width: 25vw;
+  width: 20vw;
   align-items: center;
  }
+ .kate-tab {
+   width: 14vw;
+   align-items: center;
+   padding-top: 2%;
+ }
+ .cynthia-tab {
+   width: 18vw;
+   align-items: center;
+   padding-top: 2%;
+ }
 .bakery-tab {
-  width: 60%;
+  width: 14vw;
   align-items: center;
-}
-.cynthia-tab {
-  width: 70%;
-  align-items: center;
-  padding-top: 2%;
-}
-.kate-tab{
-  width: 60%;
-  align-items: center;
-  padding-top: 2%;
 }
 .jcrew-tab {
-  width: 35%;
+  width: 10vw;
   align-items: center;
   padding-top: 2%;
 }
 .ralph-tab {
-  width: 80%;
+  width: 20vw;;
   filter: grayscale(100%);
 }
 .saks-tab {
-  width: 70%;
-  align-items: center;
+  width: 15vw;
+  height: 5vw;
 }
 
 
   /*-----*/
 .jobs-container {
-  padding: 5vw;
+  padding: 5vw 15vw;
 }
 .jobs-container h1 {
   font-size: 1.75vw;
@@ -194,12 +193,14 @@ font-family: 'Asap Condensed', sans-serif;*/
  #which-job {
    max-width: 60%;
    float: right;
-   padding: 4vw;;
-   font-family: 'News Cycle', sans-serif;
+   padding: 4vw 3vw;
    font-family: 'Pontano Sans', sans-serif;
  }
  .duties {
    font-size: 1.25vw;
+ }
+ .kate-duties {
+   font-size: 1.15vw;
  }
  .when {
    font-size: 1.4vw;
@@ -224,56 +225,101 @@ font-family: 'Asap Condensed', sans-serif;*/
   float: left;
  }
  .brooke-img {
-   width: 40vw;
+   margin-top: 2vw;
+   width: 22vw;
    height: auto;
    filter: grayscale(65%);
  }
 .summary-article {
+  margin-top: 4vw;
   background-color: black;
   width: 100%;
   display: inline-block;
   float: left;
-  padding: 7.5vw;
+  padding: 5vw 20vw;
  }
 .summary {
-  padding: 3vw;
-  font-family: didot;
-  font-size: 1.8vw;
-  line-height: 1.75;
-  width: 38vw;
+
+  /*font-family: 'Satisfy', cursive;*/
+  /*font-family: 'Parisienne', cursive;*/
+  /*font-family: 'Petit Formal Script', cursive;*/
+  /*font-family: 'Meie Script', cursive;*/
+  /*font-family: didot;*/
+  font-size: 1.5vw;
+  line-height: 1.5;
+  width: 35vw;
+  padding: 2.5vw;
   height: auto;
   text-align: center;
-  font-style: italic;
+  /*font-style: italic;*/
   color: white;
   float: right;
 }
+/*font-family: 'Pacifico', cursive;*/
+
 .flatiron-animation {
   height: auto;
-  width: 50%;
+  width: 100%;
+  background-color: black;
   display: inline-block;
-  float: right;
+  float: center;
+  padding: 5vw 0vw 5vw;
+  text-align: center;
+
 }
 img.FIanimation {
-  width: 100%;
+  width: 40%;
   height: auto;
 }
 
 .dev-skills {
-  width: 50%;
+  width: 100%;
   display: inline-block;
   text-align: center;
-  padding: 6vw;
-  color: white;
-  float: left;
+  padding: 5.25vw;
+  color: black;
+  background-color: white;
 }
 
 .home-p {
-  font-size: 2vw;
+  font-size: 1.25vw;
+  font-family: 'Pontano Sans', sans-serif;
 }
 .home-h3 {
-  font-size: 3vw;
-  padding: 1vmin;
-  margin-top: 2vh;
+  font-family: 'Pontano Sans', sans-serif;
+  font-size: 1.5vw;
+  letter-spacing: .5vw;
+  padding: 1vw;
+}
+.footer {
+  background-color: inherit;
+  display: inline-block;
+  width: 100%;
+  padding-left: 34%;
+  margin-top: 5vw;
+  align-items: center;
+  border-top: .5px solid #E0E0E0;
+
+}
+.footer img {
+  background-color: #E0E0E0;
+  width: 10%;
+  margin: 1vw;
+  opacity: .70;
+}
+.github {
+  padding: 1vw;
+}
+.linkedin {
+  filter: grayscale(60%);
+  padding: 1vw;
+}
+.medium {
+  padding-top: 1vw;
+  padding-bottom: .75vw;
+}
+.email {
+  padding: 1vw;
 }
 /*-----*/
 /*font-family: 'Playfair Display SC', serif;*/

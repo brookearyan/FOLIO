@@ -2,8 +2,8 @@ import React from 'react';
 
 const Saks = () =>
   <div className="saks-content">
-    <h3 className="role-and-when">
-      black label specialist
+    <h3 className="role">
+      Specialist, Women's Black Label
     </h3>
     <h3 className="when">
       October 2011- May 2012

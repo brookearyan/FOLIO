@@ -3,7 +3,7 @@ import React from 'react';
 const CityBakery = () =>
   <div className="bakery-content">
     <h3 className="role">
-      operations manager
+      Operations Manager
     </h3>
     <h3 className="when">
       April 2013 - January 2014

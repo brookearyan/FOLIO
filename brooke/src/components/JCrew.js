@@ -3,7 +3,7 @@ import React from 'react';
 const JCrew = () =>
   <div className="crew-content">
     <h3 className="role">
-      manager
+      Assistant Manager
     </h3>
     <h3 className="when">
       Madison Avenue Flagship, May 2012- April 2013

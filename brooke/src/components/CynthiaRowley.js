@@ -2,10 +2,10 @@ import React from 'react';
 
 const CynthiaRowley = () =>
   <div className="rowley-content">
-    <h3 className="role-and-when">
-      store manager
+    <h3 className="role">
+      Store Director
     </h3>
-    <h3 className="role-and-when">
+    <h3 className="when">
       Montauk, NY February 2014 - October 2014
     </h3>
     <p className="duties">

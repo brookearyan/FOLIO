@@ -14,7 +14,7 @@ export class App extends Component {
           <header className="App-header">
             <Burger />
             <NavLink to="/" exact>
-              <h1 className="brooke-logo">Brooke A. Ryan</h1>
+              <h1 className="brooke-logo">brooke a. ryan</h1>
             </NavLink>
           </header>
           <section className="main">
