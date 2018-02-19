@@ -5,11 +5,11 @@ import { BurgerBars } from './BurgerIcon'
 export class Burger extends React.Component {
   render() {
     return (
-      <div class="dropdown">
-        <button class="burger-button">
+      <div className="dropdown">
+        <button className="burger-button">
           <BurgerBars />
         </button>
-        <div class="dropdown-options">
+        <div className="dropdown-options">
           <NavLink to="/background" exact>
             background
           </NavLink>

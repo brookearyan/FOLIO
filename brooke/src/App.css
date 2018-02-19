@@ -173,7 +173,7 @@ a:hover {
    background-color: #ddd;
  }
  /* Create an active/current "tabs button" class */
- .tabs button.active {
+ .tabs button:active {
   background-color: #ccc;
  }
 
@@ -312,34 +312,80 @@ img.FIanimation {
 
  /*-----tech proj tab nav -----*/
  /* Style tab links */
-.tablink {
-    background-color: #555;
-    color: white;
-    float: left;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    padding: 14px 16px;
-    font-size: 17px;
+ .co-button {
+    background-color: white;
+    padding: 0;
+    width: 100%;
+    height: 4.5vw;
+    margin: 2vw;
+  }
+ .flatiron-tab {
+   width: 20vw;
+   align-items: center;
+  }
+  .kate-tab {
+    width: 14vw;
+    align-items: center;
+    padding-top: 2%;
+  }
+  .cynthia-tab {
+    width: 18vw;
+    align-items: center;
+    padding-top: 2%;
+  }
+ .bakery-tab {
+   width: 14vw;
+   align-items: center;
+ }
+ .jcrew-tab {
+   width: 10vw;
+   align-items: center;
+   padding-top: 2%;
+ }
+ .ralph-tab {
+   width: 20vw;;
+   filter: grayscale(100%);
+ }
+ .saks-tab {
+   width: 15vw;
+   height: 5vw;
+ }
+
+
+   /*-----*/
+ .tabs-container {
+   display: inline-block;
+   width: 100%;
+ }
+
+ .projects {
+   margin-top: 2.5vw;
+ }
+
+  .project-tab {
+    font-family: 'Pontano Sans', sans-serif;
+    text-align: center;
+    font-size: 2vw;
     width: 25%;
-}
+    float: left;
+    background-color: inherit;
+    padding: 2vw;
+    height: auto;
+    overflow: auto;
+    border: none;
+  }
 
-.tablink:hover {
-    background-color: #777;
+  #which-project {
+    padding: 4vw 3vw;
+    font-family: 'Pontano Sans', sans-serif;
+  }
+  #myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
 }
-
-/* Style the tab content (and add height:100% for full page content) */
-.tabcontent {
-    color: white;
-    display: none;
-    padding: 100px 20px;
-    height: 100%;
-}
-
-#Home {background-color: red;}
-#News {background-color: green;}
-#Contact {background-color: blue;}
-#About {background-color: orange;}
 /*-----*/
 /*sans-serif*/
 /*font-family: 'Pinyon Script', cursive;
