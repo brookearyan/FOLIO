@@ -1,14 +1,64 @@
 import React from 'react';
+import ReactDOM from 'react-dom';
+import { Coalition } from './projects/Coalition';
+import { ImproperNouns } from './projects/ImproperNouns';
+import { MyBudg } from './projects/MyBudg';
+import { Taxation } from './projects/Taxation';
 
-export const TechProjects = () =>
-  <article className="projects-article">
-    <h1>TechProjects</h1>
-    <div className="footer">
-      <img className="linkedin" src="https://www.shareicon.net/download/2016/08/01/639809_service.svg"/>
-      <img className="email" src="http://www.free-icons-download.net/images/email-icon-88472.png"/>
-      <img className="github" src="http://image.flaticon.com/icons/svg/23/23957.svg"/>
-      <img className="medium" src="https://s3.amazonaws.com/freebiesupply/large/2x/medium-logo-black-transparent.png"/>
-    </div>
-  </article>
+export class TechProjects extends React.Component {
 
+  coalClick(event) {
+    event.preventDefault();
+    ReactDOM.render(
+      <Coalition />,
+      document.getElementById('which-project')
+    );
+  }
+  improperClick(event) {
+    event.preventDefault();
+    ReactDOM.render(
+      <ImproperNouns />,
+      document.getElementById('which-project')
+    );
+  }
+  budgClick(event) {
+    event.preventDefault();
+    ReactDOM.render(
+      <MyBudg />,
+      document.getElementById('which-project')
+    );
+  }
+  taxClick(event) {
+    event.preventDefault();
+    ReactDOM.render(
+      <Taxation />,
+      document.getElementById('which-project')
+    );
+  }
+
+
+  render() {
+    return (
+      <section className="tabs-container">
+        <article className="tabs">
+          <button onClick={this.coalClick} className="project-tab">
+            <div className="projects"><Coalition /></div>
+          </button>
+          <button onClick={this.improperClick} className="project-tab">
+            <div className="projects"><ImproperNouns /></div>
+          </button>
+          <button onClick={this.budgClick} className="project-tab">
+            <div className="projects"><MyBudg /></div>
+          </button>
+          <button onClick={this.taxClick} className="project-tab">
+            <div className="projects"><Taxation /></div>
+          </button>
+        </article>
+        <article id="which-project">
+          <MyBudg />
+        </article>
+      </section>
+    )
+  }
+}
 export default TechProjects;

@@ -81,9 +81,7 @@ export class JobTabs extends React.Component {
             <div className="company"><CynthiaTab /></div>
           </button>
           <button onClick={this.bakeryClick} className="co-button">
-            <div className="company">
-              <BakeryTab />
-            </div>
+            <div className="company"><BakeryTab /></div>
           </button>
           <button onClick={this.crewClick} className="co-button">
             <div className="company"><JCrewTab /></div>
