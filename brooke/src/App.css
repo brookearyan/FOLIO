@@ -20,7 +20,7 @@ a:hover {
 .App-header {
   background-color: black;
   opacity: .25;
-  height: 9vw;
+  height: 7vw;
   width: 100%;
   margin: 0;
   overflow: auto;
@@ -30,8 +30,8 @@ a:hover {
 .brooke-logo {
   width: 60%;
   height: 9vw;
-  padding-left: 4vw;
-  padding-top: 4vw;
+  padding-left: 2vw;
+  padding-top: 2vw;
   font-family: 'EB Garamond', serif;
   letter-spacing: .75vw;
   color: white;
@@ -78,7 +78,7 @@ a:hover {
 /* Links inside the dropdown */
 .dropdown-options a {
   color: white;
-  padding: .75vw;
+  padding: .3vw;
   text-decoration: none;
   display: block;
 }
@@ -283,9 +283,10 @@ img.FIanimation {
   display: inline-block;
   width: 100%;
   padding-left: 34%;
-  margin-top: 5vw;
+  margin-top: 70vw;
   align-items: center;
   border-top: .5px solid #E0E0E0;
+  clear: both;
 
 }
 .footer img {
@@ -356,36 +357,64 @@ img.FIanimation {
  .tabs-container {
    display: inline-block;
    width: 100%;
+   position: absolute;
+   background-color: white;
+   opacity: .7;
  }
 
  .projects {
-   margin-top: 2.5vw;
+   position: absolute;
+   min-width: 80vw;
+   min-height: 48vw;
+   padding: 0 10vw;
  }
 
   .project-tab {
     font-family: 'Pontano Sans', sans-serif;
+    z-index: -99;
+    display: inline-block;
+    background-color: inherit;
     text-align: center;
-    font-size: 2vw;
+    font-size: 1.5vw;
     width: 25%;
     float: left;
-    background-color: inherit;
-    padding: 2vw;
+    padding: 1.5vw;
     height: auto;
     overflow: auto;
     border: none;
   }
 
   #which-project {
-    padding: 4vw 3vw;
     font-family: 'Pontano Sans', sans-serif;
+    padding-top: 7vw;
   }
-  #myVideo {
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    min-width: 100%;
-    min-height: 100%;
+
+  .videos, .html5-video-player, .video-stream, .html5-main-video, #player, .html5-video-player:not(.ytp-transparent), .html5-video-player.ad-interrupting, .html5-video-player.ended-mode, .html5-video-player.ytp-fullscreen {
+    position: absolute;
+    background-color: white;
+    z-index: -99;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    overflow-y: auto;
+  }
+
+.ytp-autohide .ytp-watermark {
+  opacity: 1;
 }
+
+.budg-accordian {
+  width: 100%;
+  float: left;
+  display: inline-block;
+  clear: both;
+  z-index: -99;
+}
+
+
+
 /*-----*/
 /*sans-serif*/
 /*font-family: 'Pinyon Script', cursive;

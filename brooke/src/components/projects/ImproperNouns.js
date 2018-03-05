@@ -1,9 +1,9 @@
 import React from 'react';
+import { ImpVideo } from './impVideo';
 
 export const ImproperNouns = () =>
   <div className="tabcontent">
-    <h3>Improper</h3>
-    <p>Home is where the heart is..</p>
+    <ImpVideo />
   </div>
 
 

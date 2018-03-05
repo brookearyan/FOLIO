@@ -2,7 +2,7 @@ import React from 'react';
 import { TechTabs } from './TechTabs';
 
 export const TechProjects = () =>
-  <div>
+  <div className="projspage-and-footer">
     <TechTabs />
     <div className="footer">
       <img className="linkedin" src="https://www.shareicon.net/download/2016/08/01/639809_service.svg"/>

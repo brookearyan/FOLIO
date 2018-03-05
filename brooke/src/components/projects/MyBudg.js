@@ -1,9 +1,9 @@
 import React from 'react';
+import { MyBudgVideo } from './myBudgVideo';
 
 export const MyBudg = () =>
   <div className="tabcontent">
-    <h3>MyBudg</h3>
-    <p>Home is where the heart is..</p>
+    <MyBudgVideo />
   </div>
 
 

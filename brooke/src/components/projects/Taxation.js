@@ -1,4 +1,5 @@
 import React from 'react';
+import { TaxVideo } from './taxVideo';
 
 export const Taxation = () =>
   <div className="tabcontent">

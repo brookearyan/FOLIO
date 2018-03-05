@@ -1,12 +1,10 @@
 import React from 'react';
-import './coalition.mp4';
+import { CoalVideo } from './coalVideo';
 
 export const Coalition = () =>
   <div className="tabcontent">
-    <h3>Coalition</h3>
-    <video autoplay muted loop id="myVideo">
-      <source src="./coalition.mp4" type="video/mp4"/>
-    </video>  </div>
+    <CoalVideo />
+  </div>
 
 
 
