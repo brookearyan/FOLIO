@@ -50,9 +50,7 @@ export class TechTabs extends React.Component {
           <div onClick={this.budgClick} className="project-tab">
             <div className="project">MyBudg</div>
           </div>
-          <div onClick={this.taxClick} className="project-tab">
-            <div className="project">Taxation</div>
-          </div>
+
         </article>
         <article id="which-project">
           <MyBudg />
@@ -61,3 +59,6 @@ export class TechTabs extends React.Component {
     )
   }
 }
+// <div onClick={this.taxClick} className="project-tab">
+//   <div className="project">Taxation</div>
+// </div>

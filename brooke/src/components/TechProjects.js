@@ -4,7 +4,7 @@ import { TechTabs } from './TechTabs';
 export const TechProjects = () =>
   <div className="projspage-and-footer">
     <TechTabs />
-    <div className="footer">
+    <div className="projs-footer">
       <img className="linkedin" src="https://www.shareicon.net/download/2016/08/01/639809_service.svg"/>
       <img className="email" src="http://www.free-icons-download.net/images/email-icon-88472.png"/>
       <img className="github" src="http://image.flaticon.com/icons/svg/23/23957.svg"/>
