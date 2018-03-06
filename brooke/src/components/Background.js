@@ -17,5 +17,6 @@ export const Background = () =>
       <a href="https://medium.com/@brooke.ryan">
         <img className="medium" src="https://s3.amazonaws.com/freebiesupply/large/2x/medium-logo-black-transparent.png"/>
       </a>
+
     </div>
   </div>

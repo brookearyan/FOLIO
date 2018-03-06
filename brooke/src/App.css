@@ -15,11 +15,16 @@ a, a:active, a:hover {
 a:hover {
   color: #383870;
 }
+.main {
+  margin-top: 8vw;
+  position: absolute;
+  z-index: -1;
+}
 
-/*----- header -----*/
+/*----- APP HEADER & LOGO -----*/
 .App-header {
-  background-color: black;
-  opacity: .25;
+  background-color: #505050;
+  opacity: .4;
   height: 7vw;
   width: 100%;
   margin: 0;
@@ -32,10 +37,14 @@ a:hover {
   height: 9vw;
   padding-left: 2vw;
   padding-top: 2vw;
-  font-family: 'EB Garamond', serif;
-  letter-spacing: .65vw;
+  font-family: 'Playfair Display SC', serif;
+  /*font-family: 'Lusitana', serif;*/
+  /*font-family: 'EB Garamond', serif;*/
+  letter-spacing: .75vw;
   color: white;
-  font-size: 3.5vw;
+  text-shadow: 1px 1px #000018;
+  font-size: 3vw;
+  font-weight: lighter;
   float: left;
   font-weight: 100;
   border-bottom: solid 1px white;
@@ -68,7 +77,7 @@ a:hover {
   margin: 1vw;
 }
 .dropdown-options {
-  font-family: 'Pontano Sans', sans-serif;
+  font-family: 'Playfair Display SC', serif;
   font-size: 1.25vw;
   letter-spacing: .2vw;
   padding: .2vw;
@@ -86,7 +95,7 @@ a:hover {
 }
 /* Change color of dropdown links on hover */
 .dropdown-options a:hover {
-  color: #3399FF;
+  color: #000018;
 }
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-options {
@@ -95,14 +104,9 @@ a:hover {
   position: static;
   float: left;
 }
+/*------*/
 
-/*----- articles -----*/
-.main {
-  margin-top: 8vw;
-  position: absolute;
-  z-index: -1;
-}
- /*----- tabs by company -----*/
+ /*----- JOBS TABS -----*/
 .co-button {
    background-color: white;
    padding: 0;
@@ -141,18 +145,14 @@ a:hover {
   width: 15vw;
   height: 5vw;
 }
-
-
-  /*-----*/
 .jobs-container {
-  padding: 3vw 15vw 5vw 15vw;
+  padding: 1vw 15vw 5vw 15vw;
 }
 .jobs-container h1 {
   font-size: 1.75vw;
   margin-left: 4.5vw;
   padding: 0px;
 }
-
 .tabs {
   float: left;
   background-color: inherit;
@@ -179,7 +179,9 @@ a:hover {
  .tabs button:active {
   background-color: #ccc;
  }
+ /*------*/
 
+/*----- JOB CONTENT -----*/
  #which-job {
    max-width: 60%;
    height: auto;
@@ -200,13 +202,14 @@ a:hover {
    font-family: Parisienne;
  }
  .role {
-   font-size: 1.25vw;
+   font-family: 'Playfair Display SC', serif;
+   font-size: 1.3vw;
    font-weight: bold;
  }
 /*-----*/
 /*font-family: 'Pinyon Script', cursive;*/
 /*font-family: 'Parisienne', cursive;*/
- /*----- home page -----*/
+ /*----- HOME PAGE -----*/
  .home-container {
    width: 100%;
    height: auto;
@@ -232,24 +235,22 @@ a:hover {
   padding: 5vw 20vw;
  }
 .summary {
-
   /*font-family: 'Satisfy', cursive;*/
   /*font-family: 'Parisienne', cursive;*/
   /*font-family: 'Petit Formal Script', cursive;*/
   /*font-family: 'Meie Script', cursive;*/
-  /*font-family: didot;*/
+  font-family: didot;
   font-size: 1.5vw;
   line-height: 1.5;
   width: 35vw;
   padding: 2.5vw;
   height: auto;
   text-align: center;
-  /*font-style: italic;*/
+  font-style: italic;
   color: white;
   float: right;
 }
 /*font-family: 'Pacifico', cursive;*/
-
 .flatiron-animation {
   height: auto;
   width: 100%;
@@ -258,13 +259,11 @@ a:hover {
   float: center;
   padding: 5vw 0vw 5vw;
   text-align: center;
-
 }
 img.FIanimation {
   width: 40%;
   height: auto;
 }
-
 .dev-skills {
   width: 100%;
   display: inline-block;
@@ -273,7 +272,6 @@ img.FIanimation {
   color: black;
   background-color: white;
 }
-
 .home-p {
   font-size: 1.25vw;
   font-family: 'Pontano Sans', sans-serif;
@@ -284,6 +282,9 @@ img.FIanimation {
   letter-spacing: .5vw;
   padding: 1vw;
 }
+/*-----*/
+
+/*------FOOTERS-----*/
 .footer {
   background-color: inherit;
   display: inline-block;
@@ -293,7 +294,6 @@ img.FIanimation {
   align-items: center;
   border-top: .5px solid #E0E0E0;
   clear: both;
-
 }
 .footer img {
   background-color: #E0E0E0;
@@ -310,7 +310,6 @@ img.FIanimation {
   align-items: center;
   border-top: .5px solid #E0E0E0;
   clear: both;
-
 }
 .projs-footer img {
   background-color: #E0E0E0;
@@ -334,7 +333,7 @@ img.FIanimation {
 }
 /*-----*/
 
- /*-----tech proj tab nav -----*/
+ /*-----TECH PROJECT PAGE, TABS -----*/
  /* Style tab links */
  .co-button {
     background-color: white;
@@ -373,30 +372,19 @@ img.FIanimation {
    width: 15vw;
    height: 5vw;
  }
-
-
-   /*-----*/
  .tabs-container {
    display: inline-block;
    width: 100%;
    position: absolute;
    background-color: inherit;
-
  }
-
- .projspage-and-footer {
-
- }
-
  .projects {
    position: absolute;
    width: 62.35vw;
    height: 39vw;
    padding: 2w;
    margin: 0vw 18vw;
-
  }
-
   .project-tab {
     font-family: 'Pontano Sans', sans-serif;
     z-index: -99;
@@ -412,18 +400,14 @@ img.FIanimation {
     border: none;
     border-bottom: solid 1px white;
     opacity: .5;
-
   }
-
   .project-tab:active, .project-tab:visited, .project-tab:hover {
     border-bottom: solid 1px grey;
   }
-
   #which-project {
     font-family: 'Pontano Sans', sans-serif;
     width: 100%;
   }
-
   .videos, .html5-video-player, .video-stream, .html5-main-video, #player, .html5-video-player:not(.ytp-transparent), .html5-video-player.ad-interrupting, .html5-video-player.ended-mode, .html5-video-player.ytp-fullscreen {
     position: absolute;
     background-color: white;
@@ -435,10 +419,12 @@ img.FIanimation {
     margin: 0;
     overflow-y: auto;
   }
-
 .ytp-autohide .ytp-watermark {
   opacity: 1;
 }
+/*------*/
+
+/*------JOB INFO------*/
  .info-title {
    padding: 1.5vw 0;
    font-size: 3vw;
@@ -447,22 +433,18 @@ img.FIanimation {
  .info-stack, .info-desc {
    font-size: 1vw;
  }
-
  .proj-git-img {
    height: 2.5vw;
    float: right;
  }
-
  .accordian {
    width: 100%;
    padding: 5vw 2vw 0vw 2vw;
  }
-
  .accordian a:hover {
    text-decoration: none;
    color: black;
  }
-
 /*-----*/
 /*sans-serif*/
 /*font-family: 'Pinyon Script', cursive;

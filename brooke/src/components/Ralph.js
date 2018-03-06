@@ -3,7 +3,7 @@ import React from 'react';
 const Ralph = () =>
   <div className="ralph-content">
     <h3 className="role">
-      Rhinelander Mansion - Specialist, Men's Tailored Clothing
+      Rhinelander Mansion - Specialist, <br />Men's Tailored Clothing
     </h3>
     <h3 className="when">
       June 2006 - April 2011

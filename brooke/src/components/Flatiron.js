@@ -2,7 +2,7 @@ import React from 'react';
 
 const Flatiron = () =>
   <div className="flatiron-content">
-    <h3 className="role">Full Stack Development Student, In-Person Immersive</h3>
+    <h3 className="role">Full Stack Development Student,<br /> In-Person Immersive</h3>
     <h3 className="when">May 2017 - January 2018</h3>
     <p className="duties">
       <br />- Fundamentals of HTML5 & CSS, as well as object-oriented programming in both Ruby and Javascript
