@@ -70,6 +70,8 @@ a:hover {
 .dropdown-options {
   font-family: 'Pontano Sans', sans-serif;
   font-size: 1.25vw;
+  letter-spacing: .2vw;
+  padding: .2vw;
   display: none;
   position: absolute;
   background-color: inherit;
@@ -106,7 +108,7 @@ a:hover {
    padding: 0;
    width: 100%;
    height: 4.5vw;
-   margin: 2vw;
+   margin: 1.25vw;
  }
 .flatiron-tab {
   width: 20vw;
@@ -150,24 +152,25 @@ a:hover {
   margin-left: 4.5vw;
   padding: 0px;
 }
- .tabs {
-   float: left;
-   background-color: inherit;
-   padding: 2vw;
-   width: 40%;
-   height: auto;
-   overflow: auto;
- }
- /* Style the buttons inside the tab */
- .tabs button {
-   display: block;
-   background-color: white;
-   border: none;
-   outline: none;
-   cursor: pointer;
-   transition: 0.3s;
-   font-size: 17px;
- }
+
+.tabs {
+  float: left;
+  background-color: inherit;
+  padding: 2vw;
+  width: 40%;
+  height: auto;
+  overflow: auto;
+}
+/* Style the buttons inside the tab */
+.tabs button {
+  display: block;
+  background-color: white;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 17px;
+}
  /* Change background color of buttons on hover */
  .tabs button:hover {
    background-color: #ddd;
@@ -179,12 +182,15 @@ a:hover {
 
  #which-job {
    max-width: 60%;
+   height: auto;
    float: right;
-   padding: 4vw 3vw;
    font-family: 'Pontano Sans', sans-serif;
+   overflow: auto;
+   margin: 7vh 0vh;
+   padding: 1.25vw;
  }
  .duties {
-   font-size: 1.25vw;
+   font-size: 1vw;
  }
  .kate-duties {
    font-size: 1.15vw;
@@ -194,7 +200,7 @@ a:hover {
    font-family: Parisienne;
  }
  .role {
-   font-size: 1.5vw;
+   font-size: 1.25vw;
    font-weight: bold;
  }
 /*-----*/
@@ -300,7 +306,7 @@ img.FIanimation {
   display: inline-block;
   width: 100%;
   padding-left: 34%;
-  margin-top: 74vw;
+  margin-top: 60vw;
   align-items: center;
   border-top: .5px solid #E0E0E0;
   clear: both;
@@ -335,7 +341,6 @@ img.FIanimation {
     padding: 0;
     width: 100%;
     height: 4.5vw;
-    margin: 2vw;
   }
  .flatiron-tab {
    width: 20vw;
@@ -375,8 +380,7 @@ img.FIanimation {
    display: inline-block;
    width: 100%;
    position: absolute;
-   background-color: white;
-   opacity: .7;
+   background-color: inherit;
 
  }
 
@@ -406,6 +410,13 @@ img.FIanimation {
     height: auto;
     overflow: auto;
     border: none;
+    border-bottom: solid 1px white;
+    opacity: .5;
+
+  }
+
+  .project-tab:active, .project-tab:visited, .project-tab:hover {
+    border-bottom: solid 1px grey;
   }
 
   #which-project {
@@ -445,6 +456,11 @@ img.FIanimation {
  .accordian {
    width: 100%;
    padding: 5vw 2vw 0vw 2vw;
+ }
+
+ .accordian a:hover {
+   text-decoration: none;
+   color: black;
  }
 
 /*-----*/

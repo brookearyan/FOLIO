@@ -42,13 +42,13 @@ export class TechTabs extends React.Component {
       <section className="projects">
         <article className="tabs-container">
           <div onClick={this.coalClick} className="project-tab">
-            <div className="project">Coalition</div>
+            <div className="project">COALITION</div>
           </div>
           <div onClick={this.improperClick} className="project-tab">
-            <div className="project">Improper Nouns</div>
+            <div className="project">improperNouns</div>
           </div>
           <div onClick={this.budgClick} className="project-tab">
-            <div className="project">MyBudg</div>
+            <div className="project">my_budg</div>
           </div>
 
         </article>
