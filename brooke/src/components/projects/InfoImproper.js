@@ -18,7 +18,7 @@ export class InfoImproper extends React.Component {
           RUBY ON RAILS | JAVASCRIPT | REACT | REDUX | CUSTOM CSS
         </p>
         <p className="info-desc"><br />
-         a web application offering personal accounting services, through a beautiful user experience
+          a social-media web application offering users a chance to exchange cheeky haikus, using one-time aliases
         </p><br />
       </div>
     );

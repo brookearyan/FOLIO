@@ -24,7 +24,7 @@ export const Home = () =>
         OFFICE PROFICIENCIES
       </h3>
       <p className="home-p">
-        Microsoft Office | Advanced Excel | G Suite | AWS | ICloud
+        Microsoft Office | Advanced Excel | G Suite | ICloud
       </p>
     </article>
     <article className="flatiron-animation">

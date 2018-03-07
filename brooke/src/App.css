@@ -224,7 +224,8 @@ a:hover {
    margin-top: 2vw;
    width: 22vw;
    height: auto;
-   filter: grayscale(65%);
+   filter: grayscale(30%);
+   border: solid 1px white;
  }
 .summary-article {
   margin-top: 4vw;
@@ -429,9 +430,17 @@ img.FIanimation {
    padding: 1.5vw 0;
    font-size: 3vw;
    width: 100%;
+   font-family: didot;
+   font-weight: 100;
  }
- .info-stack, .info-desc {
-   font-size: 1vw;
+ .info-stack {
+   font-size: 1.1vw;
+ }
+ .info-desc {
+   font-family: didot;
+   font-style: italic;
+   font-weight: 100;
+   font-size: 1.2vw;
  }
  .proj-git-img {
    height: 2.5vw;

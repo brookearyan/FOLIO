@@ -53,7 +53,7 @@ export class TechTabs extends React.Component {
 
         </article>
         <article id="which-project">
-          <MyBudg />
+          <ImproperNouns />
         </article>
       </section>
     )
