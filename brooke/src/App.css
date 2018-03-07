@@ -200,15 +200,16 @@ a:hover {
  .when {
    font-size: 1.4vw;
    font-family: Parisienne;
+   color: #202020;
  }
  .role {
    font-family: 'Playfair Display SC', serif;
+   font-weight: 100;
    font-size: 1.3vw;
    font-weight: bold;
  }
 /*-----*/
-/*font-family: 'Pinyon Script', cursive;*/
-/*font-family: 'Parisienne', cursive;*/
+
  /*----- HOME PAGE -----*/
  .home-container {
    width: 100%;
@@ -409,7 +410,15 @@ img.FIanimation {
     font-family: 'Pontano Sans', sans-serif;
     width: 100%;
   }
-  .videos, .html5-video-player, .video-stream, .html5-main-video, #player, .html5-video-player:not(.ytp-transparent), .html5-video-player.ad-interrupting, .html5-video-player.ended-mode, .html5-video-player.ytp-fullscreen {
+  .videos,
+  .html5-video-player,
+  .video-stream,
+  .html5-main-video,
+  #player,
+  .html5-video-player:not(.ytp-transparent),
+  .html5-video-player.ad-interrupting,
+  .html5-video-player.ended-mode,
+  .html5-video-player.ytp-fullscreen {
     position: absolute;
     background-color: white;
     z-index: -99;
