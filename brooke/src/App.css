@@ -200,6 +200,7 @@ a:hover {
  .when {
    font-size: 1.4vw;
    font-family: Parisienne;
+   font-weight: 100;
    color: #202020;
  }
  .role {
