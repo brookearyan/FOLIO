@@ -1,6 +1,6 @@
 import React from 'react';
 
 const BrookePic = () =>
-  <img className="brooke-img" src="https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAAkyAAAAJDM3ZjIyMTI0LWY3YmYtNDFmZi04Y2JhLWY0OTQ0MTM3NzhhMQ.jpg"/>
+  <img className="brooke-img" src="https://farm1.staticflickr.com/936/41524141201_60405a9130_m.jpg"/>
 
 export default BrookePic;
